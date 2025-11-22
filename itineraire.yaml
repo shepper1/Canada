@@ -1,0 +1,101 @@
+voyage:
+  destination: Canada (Est du Canada - Québec)
+  duree_suggeree_jours: 12
+  budget_total_estime_par_personne_eur: 4200
+  parcours:
+    - jour: 1
+      etape: "Arrivée à Montréal"
+      hebergement: Montréal
+      activites:
+        - description: "Arrivée à l'aéroport Montréal-Trudeau (YUL), transfert et installation à l'hébergement."
+        - description: "Première découverte du Vieux-Montréal, ses rues pavées et la Basilique Notre-Dame."
+      transport: "Vol Paris -> Montréal. Transport en commun ou taxi pour l'hébergement."
+
+    - jour: 2
+      etape: "Exploration de Montréal"
+      hebergement: Montréal
+      activites:
+        - description: "Ascension du Mont-Royal pour une vue panoramique sur la ville."
+        - description: "Exploration du Plateau Mont-Royal, ses maisons colorées et ses boutiques."
+        - description: "Soirée dans le Quartier des Spectacles ou dîner dans le Mile End."
+      transport: "Marche et transports en commun."
+
+    - jour: 3
+      etape: "Montréal -> Parc National de la Mauricie"
+      hebergement: Près du Parc National de la Mauricie
+      activites:
+        - description: "Prise en charge de la voiture de location en matinée."
+        - description: "Route vers le Parc National de la Mauricie (environ 2h). Installation."
+        - description: "Randonnée facile ou activité nautique (canoë, kayak) sur un des lacs du parc."
+      transport: "Voiture de location (environ 160 km)."
+
+    - jour: 4
+      etape: "Immersion nature en Mauricie"
+      hebergement: Près du Parc National de la Mauricie
+      activites:
+        - description: "Journée complète dans le parc national. Randonnée jusqu'à un belvédère (ex: Le Passage)."
+        - description: "Pique-nique au bord d'un lac et baignade si le temps le permet."
+      transport: "Voiture de location pour se déplacer dans le parc."
+
+    - jour: 5
+      etape: "Mauricie -> Région du Lac Saint-Jean"
+      hebergement: Secteur de Roberval ou Val-Jalbert
+      activites:
+        - description: "Route panoramique vers le Lac Saint-Jean (environ 3h-3h30)."
+        - description: "Visite du Zoo sauvage de Saint-Félicien, pour découvrir la faune boréale en semi-liberté."
+      transport: "Voiture de location (environ 260 km)."
+
+    - jour: 6
+      etape: "Lac Saint-Jean -> Fjord du Saguenay"
+      hebergement: Tadoussac
+      activites:
+        - description: "Route le long du majestueux Fjord du Saguenay. Arrêts aux points de vue (ex: Anse de Tabatière)."
+        - description: "Arrivée à Tadoussac, installation et promenade sur le sentier de la Pointe-de-l'Islet pour observer les bélugas depuis la rive."
+      transport: "Voiture de location (environ 200 km)."
+
+    - jour: 7
+      etape: "Observation des baleines à Tadoussac"
+      hebergement: Tadoussac
+      activites:
+        - description: "Matin : Excursion en bateau ou en zodiac pour l'observation des baleines dans le parc marin du Saguenay–Saint-Laurent."
+        - description: "Après-midi : Visite du Centre d'interprétation des mammifères marins (CIMM) pour en apprendre plus sur les géants du Saint-Laurent."
+      transport: "Marche et bateau/zodiac."
+
+    - jour: 8
+      etape: "Tadoussac -> Charlevoix -> Québec"
+      hebergement: Québec
+      activites:
+        - description: "Route panoramique de Charlevoix. Arrêt à Baie-Saint-Paul pour ses galeries d'art."
+        - description: "Continuation vers Québec avec un arrêt à la Chute Montmorency, plus haute que celles du Niagara."
+      transport: "Voiture de location (environ 220 km)."
+
+    - jour: 9
+      etape: "Découverte du Vieux-Québec"
+      hebergement: Québec
+      activites:
+        - description: "Exploration à pied du Vieux-Québec (UNESCO) : Château Frontenac, Plaines d'Abraham, Quartier Petit Champlain."
+        - description: "Traversée en ferry vers Lévis pour une vue imprenable sur la ligne d'horizon de Québec au coucher du soleil."
+      transport: "Marche et ferry."
+
+    - jour: 10
+      etape: "Québec et Île d'Orléans"
+      hebergement: Québec
+      activites:
+        - description: "Tour de l'Île d'Orléans, le garde-manger de Québec. Dégustation de produits locaux (cidreries, chocolateries)."
+        - description: "Restitution de la voiture de location en fin de journée à Québec."
+      transport: "Voiture de location (environ 70 km)."
+
+    - jour: 11
+      etape: "Québec -> Montréal et Départ"
+      hebergement: N/A
+      activites:
+        - description: "Matinée libre pour derniers achats ou visite d'un musée."
+        - description: "Trajet en train ou en bus de Québec à Montréal (environ 3h), puis transfert vers l'aéroport YUL pour le vol retour."
+      transport: "Train ou bus (environ 280 km), puis transport vers l'aéroport."
+
+    - jour: 12
+      etape: "Arrivée à Paris"
+      hebergement: N/A
+      activites:
+        - description: "Arrivée à Paris dans la matinée."
+      transport: "Vol de nuit Montréal -> Paris."
